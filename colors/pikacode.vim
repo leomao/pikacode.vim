@@ -8,7 +8,7 @@ if exists("syntax_on")
   syntax reset
 endif
 
-let colors_name = "pika"
+let colors_name = "pikacode"
 
 set background=dark
 

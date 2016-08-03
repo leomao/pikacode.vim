@@ -37,6 +37,6 @@ if exists('g:lightline')
   let s:p.normal.error = [ [ s:base03, s:red ] ]
   let s:p.normal.warning = [ [ s:base023, s:yellow ] ]
 
-  let g:lightline#colorscheme#pika#palette = lightline#colorscheme#flatten(s:p)
+  let g:lightline#colorscheme#pikacode#palette = lightline#colorscheme#flatten(s:p)
 
 endif
