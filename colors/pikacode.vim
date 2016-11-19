@@ -34,9 +34,10 @@ hi Folded         guibg=#1c1c1c guifg=#005faf gui=none
 
 " -> Line info
 hi LineNr         guibg=#000000 guifg=#696567 gui=none
-hi StatusLine     guibg=#b2b2b2 guifg=#121212 gui=none
-hi StatusLineNC   guibg=#444444 guifg=#e4e4e4 gui=none
+hi StatusLine     guibg=#444444 guifg=#a8a8a8 gui=none
+hi StatusLineNC   guibg=#262626 guifg=#a8a8a8 gui=none
 hi ColorColumn    guibg=#404040               gui=none
+hi WildMenu       guibg=#666666 guifg=#ffd75f gui=underline
 
 " -> Messages
 hi ErrorMsg       guibg=#a32024 guifg=#e4e4e4 gui=none
@@ -124,9 +125,10 @@ hi Folded         ctermbg=none ctermfg=25   cterm=none
 
 " -> Line info
 hi LineNr         ctermbg=0    ctermfg=241  cterm=none
-hi StatusLine     ctermbg=249  ctermfg=233  cterm=none
-hi StatusLineNC   ctermbg=238  ctermfg=254  cterm=none
+hi StatusLine     ctermbg=238  ctermfg=248  cterm=none
+hi StatusLineNC   ctermbg=235  ctermfg=248  cterm=none
 hi ColorColumn    ctermbg=238               cterm=none
+hi WildMenu       ctermbg=238  ctermfg=221  cterm=underline
 
 " -> Messages
 hi ErrorMsg       ctermbg=124  ctermfg=252  cterm=none
