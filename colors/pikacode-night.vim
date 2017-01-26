@@ -115,7 +115,7 @@ hi Title          ctermbg=none ctermfg=172  cterm=bold
 " -> Cursor
 hi Cursor         ctermbg=252  ctermfg=none cterm=none
 hi CursorIM       ctermbg=22   ctermfg=none cterm=none
-hi CursorColumn   ctermbg=0                 cterm=none
+hi CursorColumn   ctermbg=none              cterm=none
 hi CursorLine     ctermbg=none              cterm=none
 hi CursorLineNR   ctermbg=none ctermfg=226  cterm=bold
 
@@ -124,7 +124,7 @@ hi FoldColumn     ctermbg=none ctermfg=25   cterm=none
 hi Folded         ctermbg=none ctermfg=25   cterm=none
 
 " -> Line info
-hi LineNr         ctermbg=0    ctermfg=241  cterm=none
+hi LineNr         ctermbg=none ctermfg=241  cterm=none
 hi StatusLine     ctermbg=238  ctermfg=248  cterm=none
 hi StatusLineNC   ctermbg=235  ctermfg=248  cterm=none
 hi ColorColumn    ctermbg=238               cterm=none
@@ -155,7 +155,7 @@ hi PmenuThumb     ctermbg=30                cterm=none
 
 " -> Tabs
 hi TabLine        ctermbg=233  ctermfg=none cterm=none
-hi TabLineFill    ctermbg=0                 cterm=none
+hi TabLineFill    ctermbg=none              cterm=none
 hi TabLineSel     ctermbg=none ctermfg=252  cterm=bold
 "
 " -> Visual Mode
